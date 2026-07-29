@@ -1,39 +1,71 @@
-# Sprint 1
+Sprint 1
 
-- Estrutura
-- Git
-- Documentação
+Planejamento
 
-# Sprint 2
+Arquitetura
 
-- Backend
-- PostgreSQL
-- Docker
+Documentação
 
-# Sprint 3
+Git
 
-- Login
+----------------
 
-# Sprint 4
+Sprint 2
 
-- Categorias
+Backend
 
-# Sprint 5
+Banco
 
-- Produtos
+Docker
 
-# Sprint 6
+Swagger
 
-- Upload de Imagens
+----------------
 
-# Sprint 7
+Sprint 3
 
-- Site Público
+Autenticação
 
-# Sprint 8
+Usuários
 
-- Pedidos
+----------------
 
-# Sprint 9
+Sprint 4
 
-- Dashboard
+Categorias
+
+----------------
+
+Sprint 5
+
+Produtos
+
+----------------
+
+Sprint 6
+
+Pedidos
+
+----------------
+
+Sprint 7
+
+Agenda
+
+----------------
+
+Sprint 8
+
+Site Público
+
+----------------
+
+Sprint 9
+
+Financeiro
+
+----------------
+
+Sprint 10
+
+Deploy Produção

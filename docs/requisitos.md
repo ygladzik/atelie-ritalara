@@ -1,29 +1,36 @@
-# Requisitos
+# Funcionalidades
 
-## Área Pública
+## Cliente
 
-- Página inicial
-- Catálogo de produtos
-- Pesquisa de produtos
-- Produtos por categoria
-- Página de detalhes
-- Contato
-- Link para WhatsApp
-- Link para Instagram
+- Visualizar produtos
+- Pesquisar produtos
+- Filtrar categorias
+- Montar bolo personalizado
+- Solicitar orçamento
+- Realizar pedido
+- Acompanhar pedido
+- Efetuar pagamento
 
-## Área Administrativa
+## Administração
 
 - Login
 - Dashboard
-- Cadastro de categorias
-- Cadastro de produtos
-- Upload de imagens
-- Cadastro de pedidos
-- Alteração do status dos pedidos
+- Produtos
+- Categorias
+- Clientes
+- Agenda
+- Pedidos
+- Financeiro
 
-## Futuro
+## Produção
 
-- PIX
-- Mercado Pago
-- Área do Cliente
-- Relatórios
+- Agenda diária
+- Agenda semanal
+- Pedidos em produção
+- Pedidos concluídos
+
+## Clientes
+
+- Histórico
+- Datas de aniversário
+- Quantidade de pedidos
