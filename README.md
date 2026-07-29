@@ -1,4 +1,4 @@
-# Atelier Rita Lara
+# Ateliê Rita Lara
 
 Sistema web para gerenciamento de pedidos, produção e catálogo de produtos do Ateliê Rita Lara.
 
