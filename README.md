@@ -44,3 +44,7 @@ docs/
 docker/
 
 .github/
+
+## Modelo de Domínio
+
+![MER](docs/imagens/mer.png)
