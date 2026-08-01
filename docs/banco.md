@@ -1,19 +1,44 @@
-Usuário
+# Modelo de Domínio
 
-Categoria
+## Entidades
 
-Produto
+- Usuario
+- Cliente
+- Categoria
+- Produto
+- ProdutoImagem
+- ProdutoOpcao
+- ProdutoOpcaoValor
+- Pedido
+- ItemPedido
+- ItemPedidoOpcao
+- EnderecoEntrega
+- Pagamento
 
-ProdutoImagem
+## Relacionamentos
 
-Cliente
+Usuario (1) -> (N) Pedido
 
-Pedido
+Cliente (1) -> (N) Pedido
 
-PedidoItem
+Categoria (1) -> (N) Produto
 
-Pagamento
+Produto (1) -> (N) ProdutoImagem
 
-Endereco
+Produto (1) -> (N) ProdutoOpcao
 
-Agenda
+ProdutoOpcao (1) -> (N) ProdutoOpcaoValor
+
+Pedido (1) -> (N) ItemPedido
+
+Pedido (1) -> (N) Pagamento
+
+Pedido (1) -> (0..1) EnderecoEntrega
+
+Produto (1) -> (N) ItemPedido
+
+ItemPedido (1) -> (N) ItemPedidoOpcao
+
+ProdutoOpcao (1) -> (N) ItemPedidoOpcao
+
+ProdutoOpcaoValor (1) -> (N) ItemPedidoOpcao
