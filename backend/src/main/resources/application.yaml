@@ -7,3 +7,6 @@ spring:
     username: atelie
     password: atelie123
     driver-class-name: org.postgresql.Driver
+
+jwt:
+  secret: "uma-chave-secreta-local-do-atelie-ritalara-2026"
