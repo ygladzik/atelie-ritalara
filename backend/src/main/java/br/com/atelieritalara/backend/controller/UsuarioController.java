@@ -2,6 +2,7 @@ package br.com.atelieritalara.backend.controller;
 
 import br.com.atelieritalara.backend.entity.Usuario;
 import br.com.atelieritalara.backend.service.UsuarioService;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/usuarios")
+@SecurityRequirement(name = "bearerAuth")
 public class UsuarioController {
 
     private final UsuarioService usuarioService;
