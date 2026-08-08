@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:17
+
+    container_name: atelie-postgres
+
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: atelie
+      POSTGRES_USER: atelie
+      POSTGRES_PASSWORD: atelie123
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
